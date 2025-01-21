@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98e5b2d3179d723d683ab32ade99881c, type: 3}
+  m_Name: 2.6.2
+  m_EditorClassIdentifier: 
+  question: "Como voc\xEA reagiria nessa situa\xE7\xE3o?"
+  answers:
+  - "Assim que fico sabendo da reuni\xE3o vou imediatamente aos meus superiores sabe
+    o porqu\xEA de eu ter sido exclu\xEDdo."
+  - "N\xE3o fa\xE7o nada, se eu n\xE3o fui convidado \xE9 porque minha opini\xE3o
+    n\xE3o \xE9 relevante"
+  - "Procuro conversar com meus superiores e tento demonstrar a import\xE2ncia da
+    participa\xE7\xE3o de toda a comunidade acad\xEAmica na reuni\xE3o"

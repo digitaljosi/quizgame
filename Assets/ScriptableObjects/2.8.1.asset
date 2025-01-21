@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98e5b2d3179d723d683ab32ade99881c, type: 3}
+  m_Name: 2.8.1
+  m_EditorClassIdentifier: 
+  question: "Durante uma reuni\xE3o com a dire\xE7\xE3o para discutir quest\xF5es
+    salariais os \xE2nimos se exaltaram e eu falei com a dire\xE7\xE3o em um tom
+    que depois eu me arrependi. "
+  answers:
+  - "\xC9 bem prov\xE1vel isso acontecer, muitas vezes n\xE3o percebo que me irrito
+    e falo coisas que n\xE3o deveriam ser ditas."
+  - "Isso pode acontecer, mas para que isso aconte\xE7a eu preciso ficar muito irritado(a)
+    e perder completamente o controle. Normalmente eu percebo quando estou irritado
+    e busco me controlar."
+  - "Isso dificilmente pode acontecer comigo, eu sempre reconhe\xE7o meu estado emocional
+    e posso prever quando estou irritado(a), e sei que as vezes tenho dificuldade
+    em comunicar meus sentimentos quando estou nesse estado emocional. Normalmente,
+    eu fico calado ou saio da sala para n\xE3o fazer nenhuma besteira."
+  - "Isso nunca aconteceria comigo,  sempre conhe\xE7o bem o meu estado emocional
+    nessas discuss\xF5es e consigo expressar claramente o que penso"

@@ -1,0 +1,405 @@
+fileFormatVersion: 2
+guid: 50ad7dd538a62c74a8d9a8be72c00830
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6297656205398214674
+    second: blond_guy-removebg-preview_0
+  - first:
+      213: -1988773614674164457
+    second: blond_guy-removebg-preview_1
+  - first:
+      213: 6226608202624779528
+    second: blond_guy-removebg-preview_2
+  - first:
+      213: 2328534452330321563
+    second: blond_guy-removebg-preview_3
+  - first:
+      213: -9063537435914002053
+    second: blond_guy-removebg-preview_4
+  - first:
+      213: 3944992742717191682
+    second: blond_guy-removebg-preview_5
+  - first:
+      213: -6919416827329753142
+    second: blond_guy-removebg-preview_6
+  - first:
+      213: -894663171618280775
+    second: blond_guy-removebg-preview_7
+  - first:
+      213: -5156092850507303213
+    second: blond_guy-removebg-preview_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blond_guy-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 191
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee774bf2c0b3a98a0800000000000000
+      internalID: -6297656205398214674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blond_guy-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 66
+        width: 46
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7154da63fe47664e0800000000000000
+      internalID: -1988773614674164457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blond_guy-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 191
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805cbf89b2b596650800000000000000
+      internalID: 6226608202624779528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blond_guy-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 129
+        width: 42
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96586e4fbd905020800000000000000
+      internalID: 2328534452330321563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blond_guy-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 127
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7124e309b8d73280800000000000000
+      internalID: -9063537435914002053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blond_guy-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 127
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206f62f7ffd6fb630800000000000000
+      internalID: 3944992742717191682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blond_guy-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 65
+        width: 42
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf46226e0b49ff90800000000000000
+      internalID: -6919416827329753142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blond_guy-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 63
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba6116e5948593f0800000000000000
+      internalID: -894663171618280775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blond_guy-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 0
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d6b490eed0e178b0800000000000000
+      internalID: -5156092850507303213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blond_guy-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 0
+        width: 42
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4b1b8bbda7af1438db311b96183aeb
+      internalID: 671596936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blond_guy-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 0
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43ab55edd8083141810ee4b215b319a
+      internalID: 1163121550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blond_guy-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 0
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d542dc44619eae4fbb1450c83f214de
+      internalID: -181651247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7a9e327928c74ad419596d06b8d719ee
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      blond_guy-removebg-preview_0: -6297656205398214674
+      blond_guy-removebg-preview_1: -1988773614674164457
+      blond_guy-removebg-preview_10: 1163121550
+      blond_guy-removebg-preview_11: -181651247
+      blond_guy-removebg-preview_2: 6226608202624779528
+      blond_guy-removebg-preview_3: 2328534452330321563
+      blond_guy-removebg-preview_4: -9063537435914002053
+      blond_guy-removebg-preview_5: 3944992742717191682
+      blond_guy-removebg-preview_6: -6919416827329753142
+      blond_guy-removebg-preview_7: -894663171618280775
+      blond_guy-removebg-preview_8: -5156092850507303213
+      blond_guy-removebg-preview_9: 671596936
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

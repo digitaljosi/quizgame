@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98e5b2d3179d723d683ab32ade99881c, type: 3}
+  m_Name: 2.9.1
+  m_EditorClassIdentifier: 
+  question: "Voc\xEA \xE9 constantemente solicitado a desempenhar diferentes pap\xE9is
+    na escola, que v\xE3o al\xE9m de professor, como: coordenador de projetos, organizador
+    de eventos e at\xE9 mediador de conflitos. Como voc\xEA costuma lidar com a oportunidade
+    de surpreender agradavelmente a dire\xE7\xE3o da escola ao assumir m\xFAltiplos
+    pap\xE9is? "
+  answers:
+  - "N\xE3o penso em surpreender a dire\xE7\xE3o; apenas fa\xE7o o necess\xE1rio
+    em cada papel sem tentar impressionar."
+  - "N\xE3o costumo surpreender a dire\xE7\xE3o, pois tenho dificuldade em lidar
+    com a multiplicidade de pap\xE9is. "
+  - "Encontro maneiras de surpreender a dire\xE7\xE3o, embora algumas vezes seja
+    um pouco desafiador equilibrar os diferentes pap\xE9is."
+  - "Sei como surpreender de forma agrad\xE1vel a dire\xE7\xE3o, destacando-me em
+    diferentes pap\xE9is que assumo."

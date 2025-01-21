@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98e5b2d3179d723d683ab32ade99881c, type: 3}
+  m_Name: 2.2.2
+  m_EditorClassIdentifier: 
+  question: "Quando um aluno n\xE3o quer participar de uma atividade escolar, como
+    voc\xEA reage?"
+  answers:
+  - "Digo a ele que se ele n\xE3o participar ficar\xE1 sem notas / ter\xE1 suspens\xE3o
+    / ficar\xE1 sem intervalo"
+  - "N\xE3o obrigo sua participa\xE7\xE3o, se ele n\xE3o quer o problema \xE9 dele"
+  - "Conven\xE7o ele a participar informando a import\xE2ncia da atividade"

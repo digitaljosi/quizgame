@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: ab8151112b37ddf079f20a2c3b60ec8e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - questionText: {instanceID: 0}
+  - questionImage: {instanceID: 0}
+  - defaultAnswerSprite: {instanceID: 0}
+  - correctAnswerSprite: {instanceID: 0}
+  - timerImage: {instanceID: 0}
+  - timerText: {instanceID: 0}
+  - scoreText: {instanceID: 0}
+  - progressBar: {instanceID: 0}
+  - quizPanel: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

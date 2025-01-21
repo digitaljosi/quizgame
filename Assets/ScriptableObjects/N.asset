@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38fd2bfde37d5df459f67b21dcc87e45, type: 3}
+  m_Name: N
+  m_EditorClassIdentifier: 
+  question: "Escolha a op\xE7\xE3o que melhor descreve o que voc\xEA sentiria de
+    acordo com a situa\xE7\xE3o apresentada"
+  answers:
+  - ALEGRIA
+  - RAIVA
+  - SURPRESA
+  - MEDO
+  - NOJO
+  - TRISTEZA
+  - NEUTRO
+  correctAnswerIndex: 0
+  olhar: {fileID: 0}

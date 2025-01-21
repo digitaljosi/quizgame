@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98e5b2d3179d723d683ab32ade99881c, type: 3}
+  m_Name: 2.10.1
+  m_EditorClassIdentifier: 
+  question: "Para a realiza\xE7\xE3o de um evento escolar, voc\xEA precisa trabalhar
+    com um colega de trabalho o qual voc\xEA nunca teve um bom relacionamento, como
+    voc\xEA reage? "
+  answers:
+  - "Mantenho sempre uma postura profissional e n\xE3o deixo transparecer o que sinto."
+  - Costumo evitar demonstrar meus sentimentos negativos e mantenho a calma na maioria
+    das vezes.
+  - "\xC0s vezes, mostro algum desconforto, mesmo tentando me controlar."
+  - "Deixo transparecer minha irrita\xE7\xE3o nas minhas express\xF5es faciais ou
+    no tom de voz."

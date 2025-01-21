@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98e5b2d3179d723d683ab32ade99881c, type: 3}
+  m_Name: 2.10.2
+  m_EditorClassIdentifier: 
+  question: "Voc\xEA foi convidado para participar da despedida de um colega de trabalho
+    o qual voc\xEA nunca teve um bom relacionamento, como voc\xEA reage?"
+  answers:
+  - "Prefiro n\xE3o comparecer, n\xE3o vale a pena"
+  - "Participo da despedida mantendo uma postura discreta, afinal \xE9 um evento
+    profissional"
+  - "Embora n\xE3o tenhamos tanta afinidade um com outro, compare\xE7o a despedida,
+    cumprimento o colega e desejo-lhe sucesso em sua nova caminhada"

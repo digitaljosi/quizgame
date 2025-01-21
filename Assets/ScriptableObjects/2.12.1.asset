@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98e5b2d3179d723d683ab32ade99881c, type: 3}
+  m_Name: 2.12.1
+  m_EditorClassIdentifier: 
+  question: "Hoje entrei na sala dos professores e percebi um clima estranho. Fui
+    perguntar e um dos meus colegas me disse que a administra\xE7\xE3o da escola
+    cortou a verba para os novos materiais do semestre que vem."
+  answers:
+  - "Isso n\xE3o aconteceria comigo, pois n\xE3o costumo notar quando meus colegas
+    est\xE3o tristes ou chateados "
+  - "Para que isso aconte\xE7a eles precisam estar realmente chateados, a ponto de
+    ficar estampado na cara."
+  - Eu tenho facilidade de perceber quando alguma coisa chateia meus colegas de trabalho,
+    com toda certeza perguntaria o que aconteceu.
+  - "Com toda certeza isso aconteceria comigo, eu percebo as emo\xE7\xF5es dos meus
+    colegas, mesmo aquelas que eles tentam esconder."

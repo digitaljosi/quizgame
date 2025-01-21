@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98e5b2d3179d723d683ab32ade99881c, type: 3}
+  m_Name: 2.4.1
+  m_EditorClassIdentifier: 
+  question: "A escola na qual voc\xEA trabalha ir\xE1 passar por um processo de revis\xE3o
+    de pol\xEDticas disciplinares, no entanto, voc\xEA n\xE3o foi convidado para
+    a reuni\xE3o que trata do tema. Como voc\xEA lida com a manuten\xE7\xE3o do bom
+    humor quando n\xE3o \xE9 inclu\xEDdo(a) em reuni\xF5es importantes sobre decis\xF5es
+    institucionais? "
+  answers:
+  - "N\xE3o consigo manter o bom humor quando n\xE3o sou inclu\xEDdo(a) em reuni\xF5es
+    importantes; isso me afeta bastante."
+  - "N\xE3o costumo manter o bom humor em situa\xE7\xF5es como essa; geralmente fico
+    frustrado(a)."
+  - "Mantenho o bom humor na maioria das vezes, embora, \xE0s vezes, me sinta um
+    pouco incomodado(a) por ser deixado(a) de fora."
+  - "Consigo manter-me de bom humor, mesmo quando n\xE3o sou inclu\xEDdo(a) em reuni\xF5es
+    importantes."

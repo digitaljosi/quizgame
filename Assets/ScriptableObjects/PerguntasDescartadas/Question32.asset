@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38fd2bfde37d5df459f67b21dcc87e45, type: 3}
+  m_Name: Question32
+  m_EditorClassIdentifier: 
+  question: "Ele(a) est\xE1 sentindo, pensando ou aparentando ser:"
+  answers:
+  - "S\xE9rio"
+  - Envergonhado
+  - Perplexo
+  - Alarmado
+  correctAnswerIndex: 0
+  olhar: {fileID: 5272401415994956661, guid: 441ec2ca160a3e6498ea3c87854ed92f, type: 3}

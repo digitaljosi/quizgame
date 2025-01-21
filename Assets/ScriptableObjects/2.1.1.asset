@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98e5b2d3179d723d683ab32ade99881c, type: 3}
+  m_Name: 2.1.1
+  m_EditorClassIdentifier: 
+  question: "Durante uma aula, voc\xEA percebe que alguns alunos est\xE3o visivelmente
+    desmotivados e outros est\xE3o discutindo entre si, criando um clima negativo.
+    O que voc\xEA faz?"
+  answers:
+  - "Eventualmente costumo moderar as emo\xE7\xF5es desagrad\xE1veis; geralmente,
+    elas acabam afetando o clima da aula. "
+  - "Consigo lidar com essas emo\xE7\xF5es na maioria das vezes, mas em algumas situa\xE7\xF5es
+    posso me sentir desafiado(a). "
+  - "Consigo moderar as emo\xE7\xF5es desagrad\xE1veis e refor\xE7ar as positivas
+    durante minhas aulas, sem problema algum. "
+  - "Consigo moderar as emo\xE7\xF5es desagrad\xE1veis e refor\xE7ar as positivas
+    durante minhas aulas, sem problema algum. "

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98e5b2d3179d723d683ab32ade99881c, type: 3}
+  m_Name: 2.7.2
+  m_EditorClassIdentifier: 
+  question: "Como voc\xEA reage quando lhe pedem para lidar com alunos com defici\xEAncia?"
+  answers:
+  - "Recuso e alego que tal fun\xE7\xE3o n\xE3o faz parte do que sou pago para fazer"
+  - "Pergunto se n\xE3o h\xE1 outra pessoa para exercer a fun\xE7\xE3o, se n\xE3o,
+    me disponho para exercer a fun\xE7\xE3o"
+  - "Aceito prontamente o pedido e exer\xE7o a fun\xE7\xE3o de boa vontade para ajudar"

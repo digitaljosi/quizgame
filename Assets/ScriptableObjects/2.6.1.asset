@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98e5b2d3179d723d683ab32ade99881c, type: 3}
+  m_Name: 2.6.1
+  m_EditorClassIdentifier: 
+  question: "Voc\xEA est\xE1 chegando ao trabalho quando \xE9 abordado no corredor
+    por um pai de um aluno que questiona com voc\xEA a nota vermelha do filho, voc\xEA
+    explica o motivo mas essa situa\xE7\xE3o o deixa de mau humor. Ao chegar na sala
+    dos professores, o que acontece. "
+  answers:
+  - "Meus colegas nunca percebem meu mau humor; parece que ningu\xE9m se d\xE1 conta
+    de como estou me sentindo."
+  - "De vez em quando meus colegas notam que estou de mau humor; geralmente, eles
+    seguem suas rotinas sem perceber minha situa\xE7\xE3o."
+  - "Meus colegas, muitas vezes, percebem que n\xE3o estou no meu melhor humor, mas
+    nem sempre comentam sobre isso."
+  - Meus colegas sempre notam meu mau humor e tentam me animar quando chego na sala
+    dos professores.

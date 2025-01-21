@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98e5b2d3179d723d683ab32ade99881c, type: 3}
+  m_Name: 2.5.1
+  m_EditorClassIdentifier: 
+  question: "Voc\xEA est\xE1 andando pelo corredor \xE0 caminho da biblioteca quando
+    \xE9 abordado por um colega de trabalho que comenta com voc\xEA que as condi\xE7\xF5es
+    f\xEDsicas da escola ( Ex. problemas de infraestrutura como salas mal ventiladas
+    e equipamentos antigos) t\xEAm afetado o seu bem-estar. Como voc\xEA lida com
+    a situa\xE7\xE3o de animar um colega de trabalho que se sente triste devido \xE0s
+    condi\xE7\xF5es f\xEDsicas desfavor\xE1veis na escola? "
+  answers:
+  - "N\xE3o consigo animar o colega quando as condi\xE7\xF5es f\xEDsicas de trabalho
+    s\xE3o ruins; isso me parece imposs\xEDvel."
+  - "N\xE3o costumo conseguir animar o colega, pois as condi\xE7\xF5es f\xEDsicas
+    desfavor\xE1veis afetam bastante o clima no trabalho."
+  - "Consigo animar o colega na maioria das vezes, mas, \xE0s vezes, as condi\xE7\xF5es
+    desfavor\xE1veis dificultam um pouco."
+  - "Consigo animar o colega, mesmo quando as condi\xE7\xF5es f\xEDsicas de trabalho
+    s\xE3o desfavor\xE1veis."
