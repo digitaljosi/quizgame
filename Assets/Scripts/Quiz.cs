@@ -35,6 +35,8 @@ public class Quiz : MonoBehaviour
     [SerializeField] Slider progressBar;
 
     public bool isComplete;
+    [SerializeField]
+    private BoolValue quizFinalizado;
     private float elapsedTime = 0f;
     public float elapsedTimePhase2 = 0f;
     public float showTimer;
@@ -72,6 +74,7 @@ public class Quiz : MonoBehaviour
             if (progressBar.value == progressBar.maxValue)
             {
                 isComplete = true;
+                quizFinalizado.RuntimeValue = true;
                 return;
             }
             hasAnsweredEarly = false;
@@ -84,25 +87,24 @@ public class Quiz : MonoBehaviour
             SetButtonState(false);
         }
 
-        if (!isComplete)
-{
-    elapsedTime += Time.deltaTime;
-    
-    if (elapsedTime >= 60f)
-    {
-        // Calculando os minutos e segundos
-        int minutes = Mathf.FloorToInt(elapsedTime / 60);
-        int seconds = Mathf.FloorToInt(elapsedTime % 60);
-        
-        // Formatando o texto para mostrar minutos e segundos
-        timerText.text = string.Format("Tempo: {0}m {1}s", minutes, seconds);
-    }
-    else
-    {
-        // Se o tempo for inferior a 60 segundos, exibe em segundos
-        timerText.text = "Tempo: " + Mathf.FloorToInt(elapsedTime) + "s";
-    }
-}
+        if (!isComplete) {
+            elapsedTime += Time.deltaTime;
+            
+            if (elapsedTime >= 60f)
+            {
+                // Calculando os minutos e segundos
+                int minutes = Mathf.FloorToInt(elapsedTime / 60);
+                int seconds = Mathf.FloorToInt(elapsedTime % 60);
+                
+                // Formatando o texto para mostrar minutos e segundos
+                timerText.text = string.Format("Tempo: {0}m {1}s", minutes, seconds);
+            }
+            else
+            {
+                // Se o tempo for inferior a 60 segundos, exibe em segundos
+                timerText.text = "Tempo: " + Mathf.FloorToInt(elapsedTime) + "s";
+            }
+        }
     }
     public void UpdateTimerText2()
     {
@@ -138,6 +140,7 @@ public class Quiz : MonoBehaviour
             questionText.text = "Correto!";
             buttonImage = answerButtons[index].GetComponent<Image>();
             buttonImage.sprite = correctAnswerSprite;
+            StartCoroutine(Delay());
             scoreKeeper.IncrementCorrectAnswers();
         }
         else
@@ -145,9 +148,12 @@ public class Quiz : MonoBehaviour
             correctAnswerIndex = currentQuestion.GetCorrectAnswerIndex();
             string correctAnswer = currentQuestion.GetAnswer(correctAnswerIndex);
             questionText.text = "Desculpe, a resposta correta é:\n" + correctAnswer;
-            buttonImage = answerButtons[correctAnswerIndex].GetComponent<Image>();
-            buttonImage.sprite = correctAnswerSprite;
+            StartCoroutine(Delay());
+            //Codigo responsavel por destacar a resposta cer
+            //buttonImage = answerButtons[correctAnswerIndex].GetComponent<Image>();
+            //buttonImage.sprite = correctAnswerSprite;
         }
+        Time.timeScale = 1; 
     }
 
     void GetNextQuestion()
@@ -223,5 +229,11 @@ public class Quiz : MonoBehaviour
             Image buttonImage = answerButtons[i].GetComponent<Image>();
             buttonImage.sprite = defaultAnswerSprite;
         }
+    }
+
+    IEnumerator Delay(){
+        Time.timeScale = .2f;
+        yield return new WaitForSeconds(2);
+               
     }
 }

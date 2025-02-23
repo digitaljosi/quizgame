@@ -129,6 +129,7 @@ public class QuizPhase2 : MonoBehaviour
         int seconds = Mathf.FloorToInt(totalElapsedTime % 60);
         timerTextFase2.text = string.Format("Tempo Fase 2: {0}m {1}s", minutes, seconds);
 
+        Debug.Log("Show Quiz na fase 2");
         GetNextQuestion();
     }
 

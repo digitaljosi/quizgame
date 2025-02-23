@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
     public LayerMask solidObjectsLayer;
     public LayerMask interactablesLayer;
+    [SerializeField]
+    private BoolValue quiz1Finalizado;
     GameManager gameManager;
 
     private void Awake()
@@ -49,7 +51,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Z))
             Interact();
 
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.X) && quiz1Finalizado.RuntimeValue == false)
             gameManager.OnStartQuiz();
     }
     void Interact()
@@ -64,7 +66,7 @@ public class PlayerController : MonoBehaviour
         if(collider != null)
         {
             collider.GetComponent<Interactable>()?.Interact();
-        } else Debug.Log("Não tem um objeto interagível aqui");
+        } else Debug.Log("Nï¿½o tem um objeto interagï¿½vel aqui");
     }
     IEnumerator Move(Vector3 targetPos)
     {
