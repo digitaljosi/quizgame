@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using Unity.VisualScripting.Dependencies.NCalc;
 
 public class Quiz : MonoBehaviour
 {
@@ -37,6 +38,8 @@ public class Quiz : MonoBehaviour
     public bool isComplete;
     [SerializeField]
     private BoolValue quizFinalizado;
+    [SerializeField]
+    private BoolValue jogoSalvo;
     private float elapsedTime = 0f;
     public float elapsedTimePhase2 = 0f;
     public float showTimer;
@@ -74,7 +77,8 @@ public class Quiz : MonoBehaviour
             if (progressBar.value == progressBar.maxValue)
             {
                 isComplete = true;
-                quizFinalizado.RuntimeValue = true;
+                quizFinalizado.RuntimeValue = true;        
+                SalvarDadosDoQuiz();
                 return;
             }
             hasAnsweredEarly = false;
@@ -235,5 +239,16 @@ public class Quiz : MonoBehaviour
         Time.timeScale = .2f;
         yield return new WaitForSeconds(2);
                
+    }
+
+    public int getPontuacaoQuiz(){
+        return scoreKeeper.CalculateScore();
+    }
+
+    protected void SalvarDadosDoQuiz(){
+        if(quizFinalizado.RuntimeValue == true && jogoSalvo.RuntimeValue == false){           
+            GameManager.instance.Save();            
+            jogoSalvo.RuntimeValue = true;
+        }
     }
 }
