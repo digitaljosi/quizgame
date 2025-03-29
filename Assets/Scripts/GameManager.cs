@@ -4,10 +4,16 @@ using Unity.VisualScripting.Dependencies.NCalc;
 using UnityEngine;
 using System.IO;
 using UnityEngine.SceneManagement;
+using System;
+using System.Linq;
 
 public class GameManager : MonoBehaviour
 {
     Quiz quiz;
+    [SerializeField]
+    GerenciadorRepositorioRespostas quizPhase2;
+    [SerializeField]
+    GerenciadorRepositorioRespostas gerenciadorRepositorioRespostasQuizPhase1;
     EndScreen endScreen;
     private bool isQuizComplete = false; // Flag to track quiz completion
 
@@ -15,7 +21,7 @@ public class GameManager : MonoBehaviour
     [System.Serializable]
     class SaveData{
         public int pontucaoQuiz1;
-        public int[,] respostasQuiz2;
+        public List<string[,]> respostasQuiz2;
     }
 
     public static GameManager instance;
@@ -30,6 +36,7 @@ public class GameManager : MonoBehaviour
         }
 
         quiz = FindFirstObjectByType<Quiz>();
+        //quizPhase2 = FindFirstObjectByType<GerenciadorRepositorioRespostas>();
         endScreen = FindFirstObjectByType<EndScreen>();
     }
 
@@ -40,26 +47,48 @@ public class GameManager : MonoBehaviour
     }
 
     public void Save(){
-        SaveData data = new SaveData{
-            pontucaoQuiz1 = quiz.getPontuacaoQuiz(),
-            respostasQuiz2 = new int[10,2],
-        };
+        
+        int pontucaoQuiz1 = quiz.getPontuacaoQuiz();
+        List<string[]> respostasQuiz1 = gerenciadorRepositorioRespostasQuizPhase1.GetRespostas();
+        List<string[]> respostasQuiz2 = quizPhase2.GetRespostas();
+        
 
-        string json = JsonUtility.ToJson(data);
-        string numeroSave = Random.Range(1000,100000).ToString();
+        //string json = JsonUtility.ToJson(data);
+        string numeroSave = UnityEngine.Random.Range(1000,100000).ToString();
         string nomeArquivo = "./dados-quiz/"+numeroSave+"save.csv";
         
         TextWriter textWriter = new StreamWriter(nomeArquivo, false);
-        textWriter.WriteLine("Pontos Quiz 1, "+data.pontucaoQuiz1.ToString());
-        textWriter.WriteLine("Resposta Quiz 2");
-        textWriter.WriteLine("Pergunta, Resposta");
+        textWriter.WriteLine("Pontos Quiz 1 | "+pontucaoQuiz1.ToString());
+        textWriter.WriteLine("Respostas Quiz 1 ");
+        textWriter.WriteLine("Pergunta | Resposta");
         textWriter.Close();
 
-        textWriter = new StreamWriter(nomeArquivo, true);
-
-        for(int i= 0; i< data.respostasQuiz2.Length; i++){
-            textWriter.WriteLine(data.respostasQuiz2[i,0]+","+data.respostasQuiz2[i,1]);
+        foreach (string[] resposta in respostasQuiz1){            
+            Debug.Log(resposta[0]);
+            textWriter = new StreamWriter(nomeArquivo, true);
+            textWriter.WriteLine(resposta[0]+"|"+resposta[1]);
+            textWriter.Close();
         }
+
+        textWriter = new StreamWriter(nomeArquivo, true);
+        textWriter.WriteLine("Resposta Quiz 2");
+        textWriter.WriteLine("Pergunta | Resposta");
+        textWriter.Close();
+
+        //textWriter = new StreamWriter(nomeArquivo, true);
+
+        foreach (string[] resposta in respostasQuiz2){            
+            Debug.Log(resposta[0]);
+            textWriter = new StreamWriter(nomeArquivo, true);
+            textWriter.WriteLine(resposta[0]+"|"+resposta[1]);
+            textWriter.Close();
+        }
+
+        //textWriter.Close();
+        
+        // for(int i= 0; i< data.respostasQuiz2.Length; i++){
+        //     textWriter.WriteLine(data.respostasQuiz2[i,0]+","+data.respostasQuiz2[i,1]);
+        // }
 
         //File.WriteAllText( "./dados-quiz/"+numeroSave+"save.json",json);
         //Debug.Log(Application.persistentDataPath+"/dados-quiz/"+numeroSave+"save.json");

@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using NUnit.Framework;
 using System.Linq;
 using UnityEngine.SceneManagement;
+using Unity.VisualScripting;
 
 public class QuizPhase2 : MonoBehaviour
 {
@@ -52,6 +53,9 @@ public class QuizPhase2 : MonoBehaviour
     private bool isQuizActive = false;
 
 
+    // [SerializeField]
+    // private GerenciadorRepositorioRespostas gerenciadorRepositorioRespostas;
+
     public GameObject Balao;
 
     private float startTimePhase2;
@@ -98,6 +102,7 @@ public class QuizPhase2 : MonoBehaviour
     void Start()
     {
         quizPanel?.SetActive(false);
+        
     }
     
     void Update()
@@ -224,6 +229,12 @@ public class QuizPhase2 : MonoBehaviour
 
     public void OnAnswerSelected(int index)
     {
+        string[] resposta = new string[]{currentQuestion.question, currentQuestion.answers[index]};
+         
+        GetComponentInParent<GerenciadorRepositorioRespostas>().AddResposta(resposta);
+        
+        Debug.Log(string.Join(",", resposta));
+        
         int points = index + 1;
         ScoreFase2Manager.Instance.AddScore(points);
         totalScore += points;
@@ -258,6 +269,17 @@ public class QuizPhase2 : MonoBehaviour
         else
         {
             quitButton.gameObject.SetActive(true);
+        }
+
+        B_Counter bCounter = FindAnyObjectByType<B_Counter>();
+        
+        bool dadosSalvos = bCounter.VerificaSeDadosEstaoSalvos();
+         Debug.Log(dadosSalvos);
+        int baloes = bCounter.GetBoloesEncontrados();
+
+        if(baloes == 12 && dadosSalvos == false){
+            bCounter.SetDadosSalvos();
+            GameManager.instance.Save();
         }
     }
     private bool IsAnEmotion(string answer)

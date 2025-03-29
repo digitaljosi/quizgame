@@ -3146,7 +3146,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 93.21179, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4041,7 +4041,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 92.3667, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4177,7 +4177,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 95.94534, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -5272,7 +5272,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5677,6 +5677,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BallonsText: {fileID: 0}
   Im_counter: 0
+  dadosSalvos: {fileID: 11400000, guid: 2f0fa61cd51f2e1498354f4221924e2b, type: 2}
 --- !u!1 &181465949
 GameObject:
   m_ObjectHideFlags: 0
@@ -8020,8 +8021,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 33
-  m_fontSizeBase: 33
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8058,7 +8059,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 93.25528, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -9670,7 +9671,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 90.56525, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -11404,7 +11405,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -13746,6 +13747,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BallonsText: {fileID: 0}
   Im_counter: 0
+  dadosSalvos: {fileID: 11400000, guid: 2f0fa61cd51f2e1498354f4221924e2b, type: 2}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -19953,6 +19955,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BallonsText: {fileID: 0}
   Im_counter: 0
+  dadosSalvos: {fileID: 11400000, guid: 2f0fa61cd51f2e1498354f4221924e2b, type: 2}
 --- !u!1 &722910776
 GameObject:
   m_ObjectHideFlags: 0
@@ -20979,6 +20982,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BallonsText: {fileID: 0}
   Im_counter: 0
+  dadosSalvos: {fileID: 11400000, guid: 2f0fa61cd51f2e1498354f4221924e2b, type: 2}
 --- !u!1 &748447535
 GameObject:
   m_ObjectHideFlags: 0
@@ -21179,7 +21183,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -22033,7 +22037,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -22381,7 +22385,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -24121,6 +24125,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 880490426}
+  - component: {fileID: 880490427}
   m_Layer: 0
   m_Name: FASE2
   m_TagString: Untagged
@@ -24157,6 +24162,19 @@ Transform:
   - {fileID: 1581973417}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &880490427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880490425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69763e463e95b0149b4206fc499ea5f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  repositorioRespostas: {fileID: 11400000, guid: 87304e98ce2ab194a8917221a43f1e2b, type: 2}
 --- !u!1 &885282957
 GameObject:
   m_ObjectHideFlags: 0
@@ -24241,10 +24259,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 72
+  m_fontSizeBase: 30
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -24279,7 +24297,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 95.94534, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -25782,6 +25800,7 @@ MonoBehaviour:
   interactablesLayer:
     serializedVersion: 2
     m_Bits: 256
+  quiz1Finalizado: {fileID: 11400000, guid: 1ccebf1d79488ca4cb09e84930e0f4fc, type: 2}
 --- !u!95 &1006599402
 Animator:
   serializedVersion: 7
@@ -26724,6 +26743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BallonsText: {fileID: 0}
   Im_counter: 0
+  dadosSalvos: {fileID: 11400000, guid: 2f0fa61cd51f2e1498354f4221924e2b, type: 2}
 --- !u!1 &1066743163
 GameObject:
   m_ObjectHideFlags: 0
@@ -26814,7 +26834,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -27032,6 +27052,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BallonsText: {fileID: 0}
   Im_counter: 0
+  dadosSalvos: {fileID: 11400000, guid: 2f0fa61cd51f2e1498354f4221924e2b, type: 2}
 --- !u!1 &1084444552
 GameObject:
   m_ObjectHideFlags: 0
@@ -27744,6 +27765,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BallonsText: {fileID: 498470919}
   Im_counter: 1
+  dadosSalvos: {fileID: 11400000, guid: 2f0fa61cd51f2e1498354f4221924e2b, type: 2}
 --- !u!1 &1106153197
 GameObject:
   m_ObjectHideFlags: 0
@@ -30092,7 +30114,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -30684,6 +30706,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BallonsText: {fileID: 0}
   Im_counter: 0
+  dadosSalvos: {fileID: 11400000, guid: 2f0fa61cd51f2e1498354f4221924e2b, type: 2}
 --- !u!1 &1185681764
 GameObject:
   m_ObjectHideFlags: 0
@@ -31019,6 +31042,7 @@ GameObject:
   - component: {fileID: 1194695485}
   - component: {fileID: 1194695484}
   - component: {fileID: 1194695488}
+  - component: {fileID: 1194695489}
   m_Layer: 5
   m_Name: QuizCanvas
   m_TagString: Untagged
@@ -31157,8 +31181,24 @@ MonoBehaviour:
   scoreText: {fileID: 1366350138}
   progressBar: {fileID: 1298671011}
   isComplete: 0
+  quizFinalizado: {fileID: 11400000, guid: 1ccebf1d79488ca4cb09e84930e0f4fc, type: 2}
+  jogoSalvo: {fileID: 11400000, guid: 33e11b9250fdd1b4f997070520974eb2, type: 2}
   elapsedTimePhase2: 0
   showTimer: 0
+  gerenciadorRepositorioRespostas: {fileID: 1194695489}
+--- !u!114 &1194695489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194695483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69763e463e95b0149b4206fc499ea5f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  repositorioRespostas: {fileID: 11400000, guid: fc99b71b2edef79449c120a8e171accc, type: 2}
 --- !u!1 &1198250384
 GameObject:
   m_ObjectHideFlags: 0
@@ -33002,7 +33042,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -67108,6 +67148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BallonsText: {fileID: 0}
   Im_counter: 0
+  dadosSalvos: {fileID: 11400000, guid: 2f0fa61cd51f2e1498354f4221924e2b, type: 2}
 --- !u!1 &1376512332
 GameObject:
   m_ObjectHideFlags: 0
@@ -71088,7 +71129,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 92.35855, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -92757,7 +92798,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 93.25528, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -94905,6 +94946,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1f8899d9c6e236428d848d961d613e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  quizPhase2: {fileID: 880490427}
+  gerenciadorRepositorioRespostasQuizPhase1: {fileID: 1194695489}
 --- !u!4 &1674635422
 Transform:
   m_ObjectHideFlags: 0
@@ -95845,7 +95888,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 90.56525, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -95943,10 +95986,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
+  m_fontSize: 72
   m_fontSizeBase: 34
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -95981,7 +96024,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 89.79022, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -97305,6 +97348,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BallonsText: {fileID: 0}
   Im_counter: 0
+  dadosSalvos: {fileID: 11400000, guid: 2f0fa61cd51f2e1498354f4221924e2b, type: 2}
 --- !u!1 &1822702018
 GameObject:
   m_ObjectHideFlags: 0
@@ -98244,6 +98288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BallonsText: {fileID: 0}
   Im_counter: 0
+  dadosSalvos: {fileID: 11400000, guid: 2f0fa61cd51f2e1498354f4221924e2b, type: 2}
 --- !u!1 &1849821555
 GameObject:
   m_ObjectHideFlags: 0
@@ -98572,7 +98617,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -102875,6 +102920,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BallonsText: {fileID: 0}
   Im_counter: 0
+  dadosSalvos: {fileID: 11400000, guid: 2f0fa61cd51f2e1498354f4221924e2b, type: 2}
 --- !u!1 &2013483611
 GameObject:
   m_ObjectHideFlags: 0
@@ -103332,7 +103378,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 95.048676, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -104283,8 +104329,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -104321,7 +104367,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 93.25528, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -104431,6 +104477,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BallonsText: {fileID: 0}
   Im_counter: 0
+  dadosSalvos: {fileID: 11400000, guid: 2f0fa61cd51f2e1498354f4221924e2b, type: 2}
 --- !u!1 &2062911509
 GameObject:
   m_ObjectHideFlags: 0
@@ -104521,7 +104568,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -104654,7 +104701,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -117515,7 +117562,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

@@ -44,6 +44,10 @@ public class Quiz : MonoBehaviour
     public float elapsedTimePhase2 = 0f;
     public float showTimer;
 
+
+    [SerializeField]
+    public GerenciadorRepositorioRespostas gerenciadorRepositorioRespostas;
+
     void Awake()
     {
         timer = FindFirstObjectByType<Timer>();
@@ -78,7 +82,7 @@ public class Quiz : MonoBehaviour
             {
                 isComplete = true;
                 quizFinalizado.RuntimeValue = true;        
-                SalvarDadosDoQuiz();
+                
                 return;
             }
             hasAnsweredEarly = false;
@@ -112,7 +116,7 @@ public class Quiz : MonoBehaviour
     }
     public void UpdateTimerText2()
     {
-        Debug.Log(elapsedTimePhase2 );
+        //Debug.Log(elapsedTimePhase2 );
         if (elapsedTimePhase2 >= 60f)
         {
             int minutes = Mathf.FloorToInt(elapsedTimePhase2 / 60);
@@ -127,6 +131,11 @@ public class Quiz : MonoBehaviour
 
     public void OnAnswerSelected(int index)
     {
+        // string respostaSelecionada = currentQuestion.GetAnswer(index);
+        // string pergunta = currentQuestion.GetQuestion();
+        string[] resposta = new string[]{currentQuestion.GetQuestion(), currentQuestion.GetAnswer(index)};
+        gerenciadorRepositorioRespostas.AddResposta(resposta);
+
         hasAnsweredEarly = true;
         DisplayAnswer(index);
         SetButtonState(false);
@@ -245,10 +254,4 @@ public class Quiz : MonoBehaviour
         return scoreKeeper.CalculateScore();
     }
 
-    protected void SalvarDadosDoQuiz(){
-        if(quizFinalizado.RuntimeValue == true && jogoSalvo.RuntimeValue == false){           
-            GameManager.instance.Save();            
-            jogoSalvo.RuntimeValue = true;
-        }
-    }
 }
