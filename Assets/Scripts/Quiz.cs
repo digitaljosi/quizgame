@@ -44,6 +44,8 @@ public class Quiz : MonoBehaviour
     public float elapsedTimePhase2 = 0f;
     public float showTimer;
 
+    private float tempoUltimaResposta = 0f;
+
 
     [SerializeField]
     public GerenciadorRepositorioRespostas gerenciadorRepositorioRespostas;
@@ -116,25 +118,27 @@ public class Quiz : MonoBehaviour
     }
     public void UpdateTimerText2()
     {
+
+        timerText2.text = timer.getTimerText(elapsedTimePhase2);
+
         //Debug.Log(elapsedTimePhase2 );
-        if (elapsedTimePhase2 >= 60f)
-        {
-            int minutes = Mathf.FloorToInt(elapsedTimePhase2 / 60);
-            int seconds = Mathf.FloorToInt(elapsedTimePhase2 % 60);
-            timerText2.text = string.Format("Tempo passado: {0}m {1}s", minutes, seconds);
-        }
-        else
-        {
-            timerText2.text = "Tempo: teste " + Mathf.FloorToInt(elapsedTimePhase2) + "s";
-        }
+        // if (elapsedTimePhase2 >= 60f)
+        // {
+        //     int minutes = Mathf.FloorToInt(elapsedTimePhase2 / 60);
+        //     int seconds = Mathf.FloorToInt(elapsedTimePhase2 % 60);
+        //     timerText2.text = string.Format("Tempo passado: {0}m {1}s", minutes, seconds);
+        // }
+        // else
+        // {
+        //     timerText2.text = "Tempo: teste " + Mathf.FloorToInt(elapsedTimePhase2) + "s";
+        // }
     }
 
     public void OnAnswerSelected(int index)
-    {
-        // string respostaSelecionada = currentQuestion.GetAnswer(index);
-        // string pergunta = currentQuestion.GetQuestion();
-        string[] resposta = new string[]{currentQuestion.GetQuestion(), currentQuestion.GetAnswer(index)};
-        gerenciadorRepositorioRespostas.AddResposta(resposta);
+    {      
+        if(quizFinalizado.RuntimeValue == false){
+            ArmazenarResposta(index);
+        }  
 
         hasAnsweredEarly = true;
         DisplayAnswer(index);
@@ -254,4 +258,25 @@ public class Quiz : MonoBehaviour
         return scoreKeeper.CalculateScore();
     }
 
+    private void ArmazenarResposta(int index){        
+        float tempoReacao = elapsedTime - tempoUltimaResposta;
+        tempoUltimaResposta = elapsedTime;
+
+        //Debug.Log("tempo reacao "+ timer.converteTempoReacao(tempoReacao));
+        string[] resposta = new string[]{
+                currentQuestion.GetQuestion(),
+                currentQuestion.GetAnswer(index),
+                timer.converteTempoReacao(tempoReacao)
+        };
+        gerenciadorRepositorioRespostas.AddResposta(resposta);
+    }
+
+
+    public string GetTimerQuiz1(){
+        return timerText.text;
+    }
+
+    public string GetTimerQuiz2(){
+        return timerText2.text;
+    }
 }

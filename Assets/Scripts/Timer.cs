@@ -51,6 +51,34 @@ public class Timer : MonoBehaviour
                 timerValue = timeToCompleteQuestion;
                 loadNextQuestion = true;
             }
+        }        
+    }
+    
+    public string converteTempoReacao(float tempo){
+        string unidadeMedida = "ms";
+        
+        if (tempo >= 1f){
+            unidadeMedida = "s";
         }
+
+        if(tempo >= 60){
+            int minutes = Mathf.FloorToInt(tempo / 60);
+            int seconds = Mathf.FloorToInt(tempo % 60);
+            return minutes.ToString()+"m "+seconds.ToString()+"s";
+        }
+
+        return tempo.ToString()+unidadeMedida;
+        
+    }
+
+    public string getTimerText(float elapsedTimePhase2){
+        if (elapsedTimePhase2 >= 60f)
+        {
+            int minutes = Mathf.FloorToInt(elapsedTimePhase2 / 60);
+            int seconds = Mathf.FloorToInt(elapsedTimePhase2 % 60);
+           return string.Format("Tempo passado: {0}m {1}s", minutes, seconds);
+        }
+        
+        return "Tempo: teste " + Mathf.FloorToInt(elapsedTimePhase2) + "s";
     }
 }

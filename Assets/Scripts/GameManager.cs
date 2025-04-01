@@ -49,6 +49,7 @@ public class GameManager : MonoBehaviour
     public void Save(){
         
         int pontucaoQuiz1 = quiz.getPontuacaoQuiz();
+        int pontucaoQuiz2 = FindFirstObjectByType<ScoreFase2Manager>().getPontuacaoQuiz2();
         List<string[]> respostasQuiz1 = gerenciadorRepositorioRespostasQuizPhase1.GetRespostas();
         List<string[]> respostasQuiz2 = quizPhase2.GetRespostas();
         
@@ -60,13 +61,13 @@ public class GameManager : MonoBehaviour
         TextWriter textWriter = new StreamWriter(nomeArquivo, false);
         textWriter.WriteLine("Pontos Quiz 1 | "+pontucaoQuiz1.ToString());
         textWriter.WriteLine("Respostas Quiz 1 ");
-        textWriter.WriteLine("Pergunta | Resposta");
+        textWriter.WriteLine("Pergunta | Resposta | Tempo de Reação");
         textWriter.Close();
 
         foreach (string[] resposta in respostasQuiz1){            
             Debug.Log(resposta[0]);
             textWriter = new StreamWriter(nomeArquivo, true);
-            textWriter.WriteLine(resposta[0]+"|"+resposta[1]);
+            textWriter.WriteLine(resposta[0]+"|"+resposta[1]+"|"+resposta[2]);
             textWriter.Close();
         }
 
@@ -83,6 +84,36 @@ public class GameManager : MonoBehaviour
             textWriter.WriteLine(resposta[0]+"|"+resposta[1]);
             textWriter.Close();
         }
+
+        string conceitoQuiz1 = "";
+        if(pontucaoQuiz1 <=15)
+            conceitoQuiz1 = "Baixo";
+        else if(pontucaoQuiz1 >=16 || pontucaoQuiz1 <=31)
+            conceitoQuiz1 = "Moderado";
+        else if(pontucaoQuiz1 >=32)
+            conceitoQuiz1 = "Alto";
+
+        string conceitoQuiz2 = "";
+        if(pontucaoQuiz2 <= 31)
+            conceitoQuiz2 = "Baixo";
+        else if(pontucaoQuiz2 >=32 && pontucaoQuiz1 <=48)
+            conceitoQuiz2 = "Moderado";
+        else if(pontucaoQuiz2 >=49)
+            conceitoQuiz2 = "Alto";
+
+
+        string textoQuiz1 = pontucaoQuiz1.ToString();
+
+        string tempoFinalizarQuiz1 = quiz.GetTimerQuiz1();
+        string tempoFinalizarQuiz2 = quiz.GetTimerQuiz2();
+
+        endScreen.ShowFinalScoreGeral(
+            pontucaoQuiz1.ToString()+" - "+conceitoQuiz1,
+            tempoFinalizarQuiz1, 
+            pontucaoQuiz2.ToString()+" - "+conceitoQuiz2,
+            tempoFinalizarQuiz2);
+        endScreen.gameObject.SetActive(true);
+
 
         //textWriter.Close();
         

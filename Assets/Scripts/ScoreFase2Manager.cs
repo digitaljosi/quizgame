@@ -11,16 +11,20 @@ public class ScoreFase2Manager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // Mantém o objeto entre cenas
+            DontDestroyOnLoad(gameObject); // Mantï¿½m o objeto entre cenas
         }
         else
         {
-            Destroy(gameObject); // Garante que só exista um singleton
+            Destroy(gameObject); // Garante que sï¿½ exista um singleton
         }
     }
 
     public void AddScore(int points)
     {
         TotalScore += points;
+    }
+
+    public int getPontuacaoQuiz2(){
+        return TotalScore;
     }
 }
